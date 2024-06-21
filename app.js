@@ -1,5 +1,5 @@
-const myFavSubject = 'JavaScript'
+//declaring a variable named "myCourse" and setting its value to "Web Automation with JavaScript"
+const myCourse = 'Web Automation with JavaScript'
 
-const myAge = 24
-
-alert(myFavSubject)
+//displaying the value in a dialog box
+alert(myCourse)
