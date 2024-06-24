@@ -10,5 +10,5 @@ const position = '1st'
 
 const output = 'Today is ' + day + '.' + ' It is the ' + position + ' day of the week' + '. '
 
-//prints the value of output to the console
+//logs the value of output to the console
 console.log(output)
