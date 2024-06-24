@@ -1,8 +1,14 @@
-//displays an alert box with the text 'Hello World!
-alert('Hello World!')
+//declaring a variable named "day" and setting its value to "Monday"
 
-//declaring a variable named "myCourse" and setting its value to "Web Automation with JavaScript"
-const myCourse = 'Web Automation with JavaScript'
+const day = 'Monday'
 
-//outputs the value of myCourse to the console
-console.log(myCourse)
+//declaring a variable named "position" and setting its value to "1st"
+
+const position = '1st'
+
+//declaring a variable named "output" and setting itsv alue by concatenating strings and variables
+
+const output = 'Today is ' + day + '.' + ' It is the ' + position + ' day of the week' + '. '
+
+//prints the value of output to the console
+console.log(output)
