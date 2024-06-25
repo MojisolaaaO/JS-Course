@@ -12,3 +12,18 @@ const output = 'Today is ' + day + '.' + ' It is the ' + position + ' day of the
 
 //logs the value of output to the console
 console.log(output)
+
+//initializing a variable "number" and setting its value 
+const number = 24
+
+//checks if the number is divisible by 2 
+if (number % 2 === 0) {
+
+    //if the number is divisible by 2, log "Number is even" to the console
+    console.log('Number is even')
+
+    //if the number is not divisible by 2, log "Number is odd" to the console 
+
+} else {
+    console.log('Number is odd')
+}
