@@ -27,3 +27,15 @@ if (number % 2 === 0) {
 } else {
     console.log('Number is odd')
 }
+
+const side1 = 18
+const side2 = 18
+const side3 = 20
+if (side1 === side2 && side2 === side3) {
+    console.log('Equilateral triangle')
+
+} else if (side1 === side2 || side2 === side3) {
+    console.log('Isosceles triangle')
+} else {
+    console.log('Scalene triangle')
+}

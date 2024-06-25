@@ -47,9 +47,11 @@ const Logic = number === 12 || userName === 'Mojisola'
 console.log(Logic)
 
 //conditional statements 
-const age = 15
-if (age >= 18) {
+const age = 78
+if (age >= 18 && age <= 60) {
     console.log('You are eligible to vote')
+} else if (age > 60) {
+    console.log('You are too old to vote')
 } else {
     console.log('You are too young to vote')
 }
