@@ -13,20 +13,15 @@ const output = 'Today is ' + day + '.' + ' It is the ' + position + ' day of the
 //logs the value of output to the console
 console.log(output)
 
-//initializing a variable "number" and setting its value 
+//checking for even and odd numbers
 const number = 24
-
-//checks if the number is divisible by 2 
 if (number % 2 === 0) {
-
-    //if the number is divisible by 2, log "Number is even" to the console
     console.log('Number is even')
-
-    //if the number is not divisible by 2, log "Number is odd" to the console 
 
 } else {
     console.log('Number is odd')
 }
+
 
 const side1 = 18
 const side2 = 18
@@ -38,4 +33,56 @@ if (side1 === side2 && side2 === side3) {
     console.log('Isosceles triangle')
 } else {
     console.log('Scalene triangle')
+}
+
+const dayOfTheWeek = 'Wednesday'
+switch (dayOfTheWeek) {
+    case 'Monday':
+        console.log('Sigh! The week just started')
+        break;
+
+    case 'Friday':
+        console.log('TGIF!')
+        break;
+
+    default:
+        console.log('Yay! We are halfway through the week')
+
+
+}
+
+//while loops 
+let star = 1
+while (star <= 10) {
+    if (star === 1) {
+        console.log(star + ' star')
+    } else {
+        console.log(star + ' stars')
+    }
+    star = star + 1
+}
+
+//for loops
+for (let star = 1; star <= 10; star = star + 1) {
+    if (star === 1 || star === 0) {
+        console.log(star + ' star')
+    } else {
+        console.log(star + ' stars')
+    }
+}
+
+//specifies if numbers from 1 to 10 are even or odd numbers 
+for (let digit = 1; digit <= 10; digit = digit + 1) {
+    if (digit % 2 === 0) {
+        console.log(digit + ' is an even number')
+    } else {
+        console.log(digit + ' is an odd number')
+    }
+}
+
+//prints out all odd numbers between 1 and 20
+for (let digit = 1; digit <= 20; digit = digit + 1) {
+    if (digit % 2 !== 0) {
+        console.log(digit)
+    }
 }
