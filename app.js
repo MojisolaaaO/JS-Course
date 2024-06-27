@@ -86,3 +86,19 @@ for (let digit = 1; digit <= 20; digit = digit + 1) {
         console.log(digit)
     }
 }
+
+//function to add numbers 
+function addNumbers(firstNumber, secondNumber) {
+    const sum = firstNumber + secondNumber
+    console.log(sum)
+
+}
+
+addNumbers(7.5, 10)
+
+//function to calculate the area of a rectangle
+function areaOfRectangle(length, width) {
+    const multiply = length * width
+    console.log(multiply)
+}
+areaOfRectangle(10, 10)
