@@ -22,7 +22,7 @@ if (number % 2 === 0) {
     console.log('Number is odd')
 }
 
-
+//logs the type of triangle based on the conditions
 const side1 = 18
 const side2 = 18
 const side3 = 20
@@ -35,6 +35,7 @@ if (side1 === side2 && side2 === side3) {
     console.log('Scalene triangle')
 }
 
+//logs the day of the week based on the condition
 const dayOfTheWeek = 'Wednesday'
 switch (dayOfTheWeek) {
     case 'Monday':
@@ -93,12 +94,33 @@ function addNumbers(firstNumber, secondNumber) {
     console.log(sum)
 
 }
-
 addNumbers(7.5, 10)
+
+//return 
+function addNumbers(firstNumber, secondNumber) {
+    const sum = firstNumber + secondNumber
+    const multiply = firstNumber * secondNumber
+    return [sum, multiply];
+}
+console.log(addNumbers(20, 20))
+
+//converting dollar to naira at the rate of 1500 naira to 1 dollar
+function converter(dollar) {
+    const naira = dollar * 1500
+    return naira;
+}
+console.log(converter(500))
+
+//converts temperature in degrees to fahrenheit at the rate of 1 degree to 2.8 fahrenheit
+function tempConverter(degrees) {
+    const fahrenheit = degrees * 2.8
+    return fahrenheit;
+}
+console.log(tempConverter(50))
 
 //function to calculate the area of a rectangle
 function areaOfRectangle(length, width) {
     const multiply = length * width
-    console.log(multiply)
+    return multiply;
 }
-areaOfRectangle(10, 10)
+console.log(areaOfRectangle(10, 10))
