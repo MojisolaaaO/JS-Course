@@ -124,3 +124,38 @@ function areaOfRectangle(length, width) {
     return multiply;
 }
 console.log(areaOfRectangle(10, 10))
+
+// function and scopes
+function greet() {
+    const myName = 'Mojisola'
+    console.log('Good morning, ' + myName)
+
+    function innerGreet() {
+        console.log('Good evening, ' + myName)
+    }
+}
+
+//declared function
+salut('Moji');
+
+function salut(name) {
+    console.log('Good morning, ' + name)
+}
+
+//expressed function
+
+const salutation = function(name) {
+    console.log('Good morning, ' + name)
+}
+salutation('Diana')
+
+//callback function
+function greetings(greet) {
+    greet()
+}
+
+function callback() {
+    console.log('Good morning')
+}
+
+greetings(callback);
