@@ -150,7 +150,7 @@ const salutation = function(name) {
 salutation('Diana')
 
 //callback function
-function greeting(greet) {
+function greetings(greet) {
     greet()
 }
 
@@ -158,4 +158,4 @@ function callback() {
     console.log('Good morning')
 }
 
-greeting(callback);
+greetings(callback);
