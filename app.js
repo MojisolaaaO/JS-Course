@@ -181,3 +181,17 @@ console.log(emptyArray)
 const friends = ['Diana', 'Amira', 'Ruby', 'Liz', 'Wale']
 const bestFriend = friends[0]
 console.log(bestFriend)
+
+//adding elements to an empty array using the push method
+const empArray = []
+empArray.push('First Element', 'Second Element', 'Thid Element', 500, true)
+empArray.push('Last')
+console.log(empArray)
+
+//pop method removes the last element of a array
+empArray.pop()
+for (let start = 0; start <= empArray.length; start = start + 1) {
+    emptyArray.pop()
+}
+
+console.log(empArray)
