@@ -164,8 +164,20 @@ greetings(callback);
 const daysOfTheWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 const numArray = [78, 80, 85, 88, 94]
 const emptyArray = []
-console.log(daysOfTheWeek.length)
+    //console.log(daysOfTheWeek.length)
+
+//changing the value of the second elemnt to 40 
+const secondElement = daysOfTheWeek[1]
+daysOfTheWeek[1] = 40
+console.log(daysOfTheWeek)
+
+//adding elements to the empty array 
+emptyArray[0] = 'First Element'
+emptyArray[1] = 'Second Element'
+emptyArray[3] = 'Fourth Element'
+console.log(emptyArray)
 
 //array of friends
 const friends = ['Diana', 'Amira', 'Ruby', 'Liz', 'Wale']
-console.log(friends)
+const bestFriend = friends[0]
+console.log(bestFriend)
