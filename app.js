@@ -159,3 +159,13 @@ function callback() {
 }
 
 greetings(callback);
+
+//array 
+const daysOfTheWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+const numArray = [78, 80, 85, 88, 94]
+const emptyArray = []
+console.log(daysOfTheWeek.length)
+
+//array of friends
+const friends = ['Diana', 'Amira', 'Ruby', 'Liz', 'Wale']
+console.log(friends)
