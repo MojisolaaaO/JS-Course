@@ -209,3 +209,14 @@ const monthsOfTheYear = ['Jan', 'Feb', 'March', 'April', 'May', 'June', 'July', 
 
 console.log(monthsOfTheYear.slice(3, 8)) //returns april - august
 console.log(monthsOfTheYear.slice(7, 12)) //returns aug - dec
+
+
+//splice method
+
+//console.log(monthsOfTheYear.splice(3, 3)) //displays elements that have been removed
+//console.log(monthsOfTheYear) // displays elements that are not removed
+console.log(monthsOfTheYear, monthsOfTheYear.splice(4, 1, 'Special Month')) //removes element on index 4 "May" and replaces it with "Special Month"
+
+//console.log(monthsOfTheYear.splice(0, 3)) //removes Jan - March
+console.log(monthsOfTheYear.splice(4, 2)) // removes "Special Month"- June
+console.log(monthsOfTheYear)
