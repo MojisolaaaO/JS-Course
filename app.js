@@ -226,3 +226,31 @@ console.log(monthsOfTheYear)
 const years = ['2000', '2010', '2015', '2020', '2025', '2010']
 console.log(years.indexOf('2010')) // returns the index of the first of occuence of the element if the element has multiple occurences
 console.log(years.lastIndexOf('2010')) //returns the index of the last occurence
+
+
+//objects
+const myObject = {
+    name: 'car',
+    color: 'silver',
+    price: '500,000'
+}
+
+const door = {
+    isOpen: true,
+    material: 'wood',
+    height: '8'
+}
+
+console.log(door.material) // assess property using the dot notaion
+
+//my personal library
+
+const books = {
+    title: 'Verity',
+    description: 'suspense',
+    numbetOfPages: '400',
+    author: 'Mojisola',
+    reading: true
+
+}
+console.log(books.author)
