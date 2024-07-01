@@ -203,3 +203,9 @@ console.log(unArray)
 
 //shift method removes the first element in an array
 unArray.shift()
+
+//slice method removes any number of elements from an array
+const monthsOfTheYear = ['Jan', 'Feb', 'March', 'April', 'May', 'June', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+
+console.log(monthsOfTheYear.slice(3, 8)) //returns april - august
+console.log(monthsOfTheYear.slice(7, 12)) //returns aug - dec
