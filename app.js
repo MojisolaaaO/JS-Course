@@ -190,8 +190,16 @@ console.log(empArray)
 
 //pop method removes the last element of a array
 empArray.pop()
-for (let start = 0; start <= empArray.length; start = start + 1) {
-    emptyArray.pop()
-}
+    // for (let start = 0; start <= empArray.length; start = start + 1) {
+    //     emptyArray.pop()
+    // }
 
 console.log(empArray)
+
+//unshift method adds an element to the beginning of the array 
+const unArray = ['Moji', 'Diana']
+unArray.unshift('Pre-Element', 'Post-Element')
+console.log(unArray)
+
+//shift method removes the first element in an array
+unArray.shift()
