@@ -220,3 +220,9 @@ console.log(monthsOfTheYear, monthsOfTheYear.splice(4, 1, 'Special Month')) //re
 //console.log(monthsOfTheYear.splice(0, 3)) //removes Jan - March
 console.log(monthsOfTheYear.splice(4, 2)) // removes "Special Month"- June
 console.log(monthsOfTheYear)
+
+
+//IndexOf method gets the index of a particular element
+const years = ['2000', '2010', '2015', '2020', '2025', '2010']
+console.log(years.indexOf('2010')) // returns the index of the first of occuence of the element if the element has multiple occurences
+console.log(years.lastIndexOf('2010')) //returns the index of the last occurence
