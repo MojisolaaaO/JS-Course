@@ -235,13 +235,37 @@ const myObject = {
     price: '500,000'
 }
 
+
 const door = {
     isOpen: true,
     material: 'wood',
-    height: '8'
+    height: '8',
+    toggleOpenAndClose: function() {
+        if (door.isOpen === true) {
+            door.isOpen = false
+        } else {
+            door.isOpen = true
+        }
+    }
 }
+door.toggleOpenAndClose()
+console.log(door.isOpen)
 
-console.log(door.material) // assess property using the dot notaion
+const person = {
+    nickName: 'Moji',
+    age: 24,
+    siblings: ['Wura', 'Wonu', 'Molade'],
+    addSiblings: function(nickName) {
+        person.siblings.push(nickName)
+    }
+
+}
+person.addSiblings('Lanre')
+person.hairColor = 'black' //adds a property dynamically
+console.log(person)
+
+
+//console.log(door.material) // assess property using the dot notaion
 
 //my personal library
 
@@ -250,7 +274,16 @@ const books = {
     description: 'suspense',
     numbetOfPages: '400',
     author: 'Mojisola',
-    reading: true
+    reading: false,
+    toggleReadingStatus: function() {
+        if (books.reading === true) {
+            books.reading = false
+
+        } else {
+            books.reading = true
+        }
+    }
 
 }
-console.log(books.author)
+books.toggleReadingStatus()
+console.log(books.reading)
