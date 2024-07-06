@@ -252,16 +252,35 @@ door.toggleOpenAndClose()
 console.log(door.isOpen)
 
 const person = {
-    nickName: 'Moji',
+    name: 'Moji',
     age: 24,
-    siblings: ['Wura', 'Wonu', 'Molade'],
-    addSiblings: function(nickName) {
-        person.siblings.push(nickName)
+    siblings: [{
+            name: 'Kelly',
+            age: 20,
+
+        },
+
+        {
+            name: 'Roselyn',
+            age: 22,
+
+        },
+        {
+            name: 'Rob',
+            age: 28,
+
+        },
+    ],
+    addSiblings: function(name) {
+        person.siblings.push(name)
     }
 
 }
-person.addSiblings('Lanre')
-person.hairColor = 'black' //adds a property dynamically
+person.addSiblings({
+        name: 'Henry',
+        age: 15
+    })
+    //person.hairColor = 'black' //adds a property dynamically
 console.log(person)
 
 
@@ -287,3 +306,27 @@ const books = {
 }
 books.toggleReadingStatus()
 console.log(books.reading)
+
+const booksArray = [{
+    title: 'Life of MJ',
+    description: 'A autobiography about MJ',
+    numberOfPages: 400,
+    author: 'Mojisola Otusheso',
+    reading: true
+
+}]
+
+//converting js file to JSON file 
+const vehicle = {
+    'name': 'vehicle',
+    'type': 'car',
+    'color': 'silver',
+    'parts': ['side mirror', 'tire']
+}
+
+const json = JSON.stringify(vehicle)
+console.log(json)
+
+//converting JSON file to js file 
+
+console.log(JSON.parse(json))
