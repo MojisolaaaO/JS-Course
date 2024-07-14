@@ -6,7 +6,7 @@ const day = 'Monday'
 
 const position = '1st'
 
-//declaring a variable named "output" and setting its value by concatenating strings and variables
+//declaring a variable named "output" and setting its value by concatenating strings and variables to form a sentence
 
 const output = 'Today is ' + day + '.' + ' It is the ' + position + ' day of the week' + '. '
 
