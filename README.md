@@ -3,7 +3,7 @@ This repository contains all the code and projects I develop while taking a Java
 
 
 ## Prerequisites
-The following software and tools are required to run the test:
+The following software and tools are required:
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Node.js](https://nodejs.org/)
 - [Postman](https://www.postman.com/)
