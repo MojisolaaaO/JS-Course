@@ -5,6 +5,8 @@ This repository contains all the code and projects I develop while taking a Java
 ## Prerequisites
 The following software and tools are required to run the test:
 - [Visual Studio Code](https://code.visualstudio.com/)
+- [Node.js](https://nodejs.org/)
+- [Postman](https://www.postman.com/)
 
 
 ## Installation
@@ -18,3 +20,13 @@ To install and setup the project:
 ```bash
    cd JS-Course
 ```
+## Topics Covered
+* Variable Keywords
+* Data Types (Primitive & Non-Primitive)
+* Operators (Assignment, Arithmetic, Comparison, Logical)
+* Conditional Statements (if-else, switch, loops)
+* Functions (Declarations, Scopes, Expressions, Callbacks)
+* Arrays (Access, Methods: push, pop, slice, splice, indexOf)
+* Objects (Methods, Complex Structures, JSON)
+* JavaScript on the server with Node.js
+* Postman for API testing
