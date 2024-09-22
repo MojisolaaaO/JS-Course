@@ -29,4 +29,4 @@ To install and setup the project:
 * Arrays (Access, Methods: push, pop, slice, splice, indexOf)
 * Objects (Methods, Complex Structures, JSON)
 * JavaScript on the server with Node.js
-* Postman for API testing
+* API testing using Postman
